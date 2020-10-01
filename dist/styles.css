@@ -1,0 +1,171 @@
+html {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.main-nav {
+    display: grid;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: rgb(0, 22, 68);
+}
+
+.main-nav h1 {
+    font-size: 20px;
+}
+
+.main-nav .subtitle {
+    background: rgb(4, 24, 136);
+    padding: 10px;
+    font-style: italic;
+}
+
+.content-container {
+    background: rgb(17, 17, 17);
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 3fr 10fr;
+    border: 1px solid;
+}
+
+.projects-menu {
+    border-right: 1px solid;
+}
+
+.projects-options {
+    display: inline;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.toggle-view-icon {
+    /* background: rgb(0, 22, 68); */
+    max-width: 60%;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    display: inline;
+}
+
+.menu-toggle {
+    background: rgb(0, 22, 68);
+    max-width: 60%;
+    margin: auto;
+}
+
+.new-project-button {
+    background: rgb(0, 22, 68);
+    border: 1px solid white;
+    margin-left: 20%;
+    color: white;
+}
+
+.create-project-btn {
+    background: rgb(0, 22, 68);
+    border: 1px solid black;
+    color: white;
+}
+
+.project-x-out {
+    position: relative;
+    top: 0;
+    margin-left: 90%;
+    width: 30px;
+    background: rgb(0, 22, 68);
+    border: 1px solid black;
+    color: white;
+}
+
+.new-project-form {
+    display: grid;
+    color: black;
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    z-index: 10000;
+    width: 400px;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.new-project-form h4 {
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+}
+
+.invisible {
+    transition: 50ms;
+    display: none;
+}
+
+.project-item {
+    color: white;
+    margin-left: 20%;
+}
+
+.project-btn-grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    width: 100%;
+}
+
+.project-item-btn {
+    /* display: grid; */
+    /* align-content: center; */
+    background: rgb(0, 0, 71);
+    border: 1px solid white;
+    transition: 0.5s;
+    /* width: 50%; */
+}
+
+.project-item-btn:hover {
+    background: black;
+    transition: 0.5s;
+}
+
+.project-ui {
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.project-title {
+    font-size: 28px;
+    text-align: center;
+}
+
+.new-todo-button {
+    background: rgb(0, 22, 68);
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    float: right;
+    margin-right: 30px;
+    margin-top: -53px;
+}
+
+table {
+    width: 90%;
+    border: 1px solid white;
+}
+
+.table-row {
+    background: rgb(53, 53, 53);
+}
+
+input {
+    height: 10px;
+}
+
+input[type="text"], input[type="date"] {
+    text-align: start;
+    font-size: 14px;
+}
+
+.delete-btn {
+    color: white;
+    border: 1px solid white;
+    background: rgb(128, 0, 0);
+}

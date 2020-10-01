@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+        <h1 class="logo">To-Do List</h3>
+    </nav>
+    <div class="content-container">
+        <div class="projects-menu">
+            <h3 class="toggle-view-icon">> Projects</h3>
+            <div class="project-select"></div>
+            <button type="button" class="new-project-button">New Project</button>
+            </div>
+
+            <div class="project-ui">
+            </div>
+        </div>
+
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+          https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCnlLk4xAR8dfxvw5okK2NMmmatJKXkS30",
+        authDomain: "todo-list-c31e6.firebaseapp.com",
+        databaseURL: "https://todo-list-c31e6.firebaseio.com",
+        projectId: "todo-list-c31e6",
+        storageBucket: "todo-list-c31e6.appspot.com",
+        messagingSenderId: "519304087310",
+        appId: "1:519304087310:web:ef75df718a1134d988b95f"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </body>
+  <script src="main.js"></script>
+</html>
